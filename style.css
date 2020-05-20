@@ -1,0 +1,541 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: "Calibri";
+	font-size: 1rem;
+	line-height: 1.8;
+	font-weight: 200;
+	letter-spacing: 1px;
+	background-repeat: repeat;
+	background-position: top left;
+	color: #fff;
+	background-color: #000;
+	background-image: url("./assets/background.jpg");
+	display: block;
+}
+
+.site-content {
+	height: 100%;
+}
+
+html body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar-mobile {
+	display: none;
+}
+
+.nav-mobile {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.nav-menu-mobile {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	justify-content: center;
+	padding: 68px 0px 25.5px;
+}
+
+.mobile-nav-links {
+	display: flex;
+	justify-content: center;
+}
+
+.mobile-nav-links a {
+	text-decoration: none;
+	font-family: "Calibri";
+	font-size: 25.5px;
+	padding: 12.75px;
+	color: #fff;
+	font-weight: 700;
+	display: flex;
+}
+
+.mobile-nav-links a:hover {
+	transition: 0.5s;
+	color: #E54F2F;
+	cursor: pointer;
+}
+
+.menu-button {
+	position: absolute;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.menu-button .bar {
+	height: 3px;
+	width: 25px;
+	background-color: #fff;
+}
+
+.mobile-footer {
+	display: none;
+	height: 47px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
+    background-color: #000;
+    width: 100%;
+}
+
+.mobile-footer a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Calibri";
+	font-size: 14.45px;
+	font-weight: 700;
+}
+
+.mobile-footer_list {
+	list-style: none;
+}
+
+.green-line {
+	display: none;
+}
+
+.mobile-social-media {
+	display: inline-flex;
+	align-self: center;
+}
+
+.mobile-social-media li {
+	list-style: none;
+	margin: 5px;
+}
+
+.mobile-social-media li a {
+	text-decoration: none;
+}
+
+i:hover {
+	color: #E54F2F;
+	transition: 0.5s;
+}
+
+.fab {
+	background-color: black;
+	color: white;
+	font-size: 26px;
+}
+
+.header {
+	background-color: #000;
+	padding: 17px;
+	padding-bottom: 25px;
+	position: fixed;
+	width: 100%;
+	z-index: 800;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto 1rem;
+}
+
+.nav {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-menu li {
+	font-weight: 1000;
+	list-style: none;
+	padding: 0px 7.225px;
+	height: 33px;
+}
+
+.nav-links {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14.45px;
+	font-weight: 1000;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-links:hover {
+	transition: 0.5s;
+	color: #E54F2F;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.order-online {
+	font-family: "Calibri";
+	height: 44px;
+	width: 134px;
+	font-size: 14.45px;
+	background-color: #8ECF5F;
+	color: #fff;
+	font-weight: 1000;
+	margin: 0px 0px 0px 7.225px;
+	padding: 7.225px 14.45px;
+	border: none;
+	border-width: 2px;
+	position: relative;
+}
+
+.order-online:hover {
+	transition: 0.5s;
+	background-color: #E54F2F;
+	cursor: pointer;
+	border: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.store-hours a {
+	text-decoration: none;
+	color: #8ECF5F;
+}
+
+.container {
+	display: grid;
+	margin: 0;
+	min-width: 100%;
+	padding-top: 200px;
+	grid-template-rows: 1fr .60fr 1fr .65fr .36fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	"carousel carousel"
+	"marketing marketing"
+	"pic1 store-hours"
+	"wecater pic2"
+	"instagram instagram"
+}
+
+.carousel {
+	grid-area: carousel;
+	width: 100%;
+}
+
+.marketing {
+	grid-area: marketing;
+	text-align: center;
+	padding: 85px 32px 76.5px;
+}
+
+.pic1 {
+	grid-area: pic1;
+	background: url(./assets/storeinfo-img.jpg);
+	background-size: cover;
+}
+
+.store-hours {
+	grid-area: store-hours;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	padding: 85px 0px 76.5px;
+}
+
+.wecater {
+	grid-area: wecater;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	padding: 85px 0px 76.5px;
+}
+
+.pic2 {
+	grid-area: pic2;
+	background: url(./assets/catering-img.jpg);
+	background-size: cover;
+}
+
+.instagram {
+	grid-area: instagram;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+}
+
+@font-face {
+  font-family: sancoale;
+  src: url(./assets/Sancoale.ttf);
+}
+
+.marketing h2 {
+	font-family: sancoale;
+	color: #D6A64C;
+	font-size: 42.5px;
+}
+
+.marketing p {
+	font-size: 17px;
+}
+
+.store-hours h2 {
+	font-family: sancoale;
+	color: #D6A64C;
+	font-size: 42.5px;
+	margin-bottom: 25.5px;
+}
+
+.store-hours p {
+	font-size: 17px;
+	margin-bottom: 17px;
+}
+
+.wecater h2 {
+	font-family: sancoale;
+	color: #D6A64C;
+	font-size: 42.5px;
+	margin-bottom: 25.5px;
+}
+
+.wecater p {
+	font-size: 17px;
+	margin-bottom: 17px;
+}
+
+.order-catering {
+	margin: 17px 16px; 
+	font-family: calibri;
+	font-size: 14.15px;
+	padding: 8.5px 17px;
+	color: #fff;
+	background-color: #000;
+	border: 2px solid #8ECF5F;
+}
+
+.order-catering:hover {
+	border: 2px solid #E54F2F;
+}
+
+.instagram h1 {
+	font-size: 51px;
+	font-family: sancoale;
+	color: #D6A64C;
+}
+
+.instagram h1 a {
+	color: #8ECF5F;
+}
+
+footer {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.desktop-footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 62px 0px 62px;
+}
+
+.desktop-footer ul li {
+	display: inline-block;
+	font-weight: 1000;
+}
+
+.desktop-footer ul li a {
+	color: #fff;
+	padding: 3.125px 7.225px;
+}
+
+.email-signup {
+	background: #8ECF5F;
+	border: none;
+	color: #fff;
+	margin: 0px 0px 0px 7.225px;
+	padding: 7.225px 14.45px;
+}
+
+.social-media-icons, .desktop-footer-links {
+	padding-top: 16px;
+}
+
+.desktop-footer-links li a:hover {
+	cursor: pointer;
+	color: #E54F2F;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.email-signup:hover {
+	cursor: pointer;
+	background: #E54F2F;
+	transition: 0.5s;
+}
+
+@media (max-width: 827px) {
+	.navbar-desktop {
+		display: none;
+		position: fixed;
+	}
+
+	.navbar-mobile {
+		display: flex;
+		align-self: center;
+	}
+
+	.nav-mobile {
+		display: none;
+	}
+
+	.menu-button {
+		display: flex;
+	}
+
+	.mobile-header-logo {
+		display: flex;
+		margin-left: auto;
+		height: 85px;
+		width: 85px;
+	}
+
+	.mobile-footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	.nav-mobile.active {
+		width: 100%;
+		display: flex;
+		justify-content: center;		
+	}
+
+	.nav-menu-mobile.active {
+		width: 100%;
+		display: flex;
+		justify-content: center;	
+	}
+
+	.container {
+		display: grid;
+		padding-top: 0px;
+		grid-template-rows: .5fr .5fr .5fr 1fr .5fr .5fr .5fr;
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"carousel"
+		"marketing"
+		"pic1"
+		"store-hours"
+		"pic2"
+		"wecater"
+		"instagram";
+	}
+
+.carousel {
+	grid-area: carousel;
+	height: 600px;
+	width: 100%;
+	padding-top: 100px;
+}
+
+.marketing {
+	grid-area: marketing;
+	text-align: center;
+	padding: 0px 16px 16px;
+}
+
+.pic1 {
+	grid-area: pic1;
+	background: url(./assets/storeinfo-img.jpg);
+	background-size: cover;
+}
+
+.store-hours {
+	grid-area: store-hours;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+
+.wecater {
+	grid-area: wecater;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	padding: 85px 0px 76.5px;
+}
+
+.pic2 {
+	grid-area: pic2;
+	background: url(./assets/catering-img.jpg);
+	background-size: cover;
+}
+
+.instagram {
+	grid-area: instagram;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+	main.active {
+		display: none;
+	}
+
+	.logo-mobile.active {
+		display: none;
+	}
+
+	.mobile-footer.active {
+		display: none;
+	}
+
+	.desktop-footer.active {
+		display: none;
+	}
+
+	.green-line.active {
+		display: flex;
+		height: 3px;
+		width: 100%;
+		background-color: #8ECF5F;
+		margin: 0px 0px 31.75px;
+	}
+
+	.header.active {
+		position: relative;
+	}
+
+	.desktop-footer {
+		display: none;
+	}
+
+}
