@@ -27,8 +27,8 @@ body {
 }
 
 html body {
-	height: auto;
-	width: auto;
+	height: 100%;
+	width: 100%;
 }
 
 .navbar-mobile {
@@ -447,7 +447,7 @@ footer {
 	}
 
 	.mobile-header-logo {
-		display: flex;
+		display: none;
 		margin-left: auto;
 		height: 85px;
 		width: 85px;
