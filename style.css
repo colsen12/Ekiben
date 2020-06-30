@@ -29,6 +29,8 @@ body {
 html body {
 	height: 100%;
 	width: 100%;
+	max-width: 100%;
+    	overflow-x: hidden;
 }
 
 .navbar-mobile {
@@ -58,7 +60,7 @@ html body {
 	font-family: "Calibri";
 	font-size: 25.5px;
 	padding: 12.75px;
-	color: #fff;
+	color: blue;
 	font-weight: 700;
 	display: flex;
 }
@@ -102,8 +104,8 @@ html body {
 }
 
 .mobile-footer {
-	display: none;
-	height: 47px;
+    display: none;
+    height: 47px;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -447,7 +449,7 @@ footer {
 	}
 
 	.mobile-header-logo {
-		display: none;
+		display: flex;
 		margin-left: auto;
 		height: 85px;
 		width: 85px;
