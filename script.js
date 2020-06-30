@@ -1,5 +1,8 @@
 const toggleButton = document.getElementsByClassName('menu-button')[0]
 const navbarLinks = document.getElementsByClassName('nav-mobile')[0]
+const bar1 = document.getElementsByClassName('bar1')[0]
+const bar2 = document.getElementsByClassName('bar2')[0]
+const bar3 = document.getElementsByClassName('bar3')[0]
 const mainPage = document.getElementsByClassName('main-page')[0]
 const logo = document.getElementsByClassName('logo-mobile')[0]
 const mobileFooter = document.getElementsByClassName('mobile-footer')[0]
@@ -9,6 +12,9 @@ const greenLine = document.getElementsByClassName('green-line')[0]
 const header = document.getElementsByClassName('header')[0]
 
 toggleButton.addEventListener('click', () => {
+  bar1.classList.toggle('change')
+  bar2.classList.toggle('change')
+  bar3.classList.toggle('change')
 	navbarLinks.classList.toggle('active')
 	mainPage.classList.toggle('active')
 	logo.classList.toggle('active')

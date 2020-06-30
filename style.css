@@ -63,7 +63,8 @@ html body {
 	display: flex;
 }
 
-.mobile-nav-links a:hover {
+.mobile-nav-links a:hover,
+.mobile-nav-links a:active {
 	transition: 0.5s;
 	color: #E54F2F;
 	cursor: pointer;
@@ -79,10 +80,25 @@ html body {
 	height: 21px;
 }
 
-.menu-button .bar {
+.bar1, .bar2, .bar3 {
 	height: 3px;
 	width: 25px;
 	background-color: #fff;
+	transition: 0.4s;
+}
+
+.bar1.change  {
+  -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.bar2.change  {
+	opacity: 0;
+}
+
+.bar3.change  {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
 }
 
 .mobile-footer {
@@ -127,7 +143,8 @@ html body {
 	text-decoration: none;
 }
 
-i:hover {
+i:hover,
+i:active {
 	color: #E54F2F;
 	transition: 0.5s;
 }
@@ -163,8 +180,8 @@ i:hover {
 .nav ul {
 	margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: center;
+	display: inline;
+	text-align: center;
 }
 
 .nav-menu li {
@@ -172,7 +189,9 @@ i:hover {
 	list-style: none;
 	padding: 0px 7.225px;
 	height: 33px;
+	display: inline;
 }
+
 
 .nav-links {
 	text-decoration: none;
@@ -183,14 +202,16 @@ i:hover {
 	vertical-align: middle;
 }
 
-.nav-links:hover {
+.nav-links:hover,
+.nav-links:active {
 	transition: 0.5s;
 	color: #E54F2F;
 	cursor: pointer;
 	text-decoration: none;
 }
 
-.logo:hover {
+.logo:hover,
+.logo:active {
 	cursor: pointer;
 }
 
@@ -209,7 +230,8 @@ i:hover {
 	position: relative;
 }
 
-.order-online:hover {
+.order-online:hover,
+.order-online:active {
 	transition: 0.5s;
 	background-color: #E54F2F;
 	cursor: pointer;
@@ -340,7 +362,8 @@ img {
 	border: 2px solid #8ECF5F;
 }
 
-.order-catering:hover {
+.order-catering:hover,
+.order-catering:active {
 	border: 2px solid #E54F2F;
 }
 
@@ -389,20 +412,22 @@ footer {
 	padding-top: 16px;
 }
 
-.desktop-footer-links li a:hover {
+.desktop-footer-links li a:hover,
+.desktop-footer-links li a:active {
 	cursor: pointer;
 	color: #E54F2F;
 	text-decoration: none;
 	transition: 0.5s;
 }
 
-.email-signup:hover {
+.email-signup:hover,
+.email-signup:active {
 	cursor: pointer;
 	background: #E54F2F;
 	transition: 0.5s;
 }
 
-@media (max-width: 827px) {
+@media (max-width: 768px) {
 	.navbar-desktop {
 		display: none;
 		position: fixed;
