@@ -492,11 +492,27 @@ footer {
 		"wecater"
 		"instagram";
 	}
+	
+.marketing {
+	max-width: 100%;
+}
+
+.pic1 {
+	max-width: 100%;
+}
+
+.store-hours {
+	max-width: 100%;
+}
+
+.wecater {
+	max-width: 100%;
+}
 
 .carousel {
 	grid-area: carousel;
 	height: 600px;
-	width: 100%;
+	max-width: 100%;
 	padding-top: 100px;
 }
 
