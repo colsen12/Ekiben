@@ -274,6 +274,7 @@ img {
 	grid-area: marketing;
 	text-align: center;
 	padding: 85px 32px 76.5px;
+	max-width: 100%;
 }
 
 .pic1 {
