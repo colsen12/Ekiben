@@ -430,6 +430,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+	html, body {
+	max-width: 100%;
+    	overflow-x: hidden;
+	}
+	
 	.navbar-desktop {
 		display: none;
 		position: fixed;
