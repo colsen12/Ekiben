@@ -10,7 +10,7 @@ body {
 	background-size: 100%;
 	background-attachment: fixed;
 	font-family: "Calibri";
-	font-size: 1rem;
+	font-size: 100%;
 	line-height: 1.8;
 	font-weight: 200;
 	letter-spacing: 1px;
@@ -29,8 +29,6 @@ body {
 html body {
 	height: 100%;
 	width: 100%;
-	max-width: 100%;
-    	overflow-x: hidden;
 }
 
 .navbar-mobile {
@@ -104,8 +102,8 @@ html body {
 }
 
 .mobile-footer {
-    display: none;
-    height: 47px;
+	display: none;
+	height: 47px;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -119,7 +117,7 @@ html body {
 	text-decoration: none;
 	color: #fff;
 	font-family: "Calibri";
-	font-size: 14.45px;
+	font-size: .85rem;
 	font-weight: 700;
 }
 
@@ -154,7 +152,7 @@ i:active {
 .fab {
 	background-color: black;
 	color: white;
-	font-size: 26px;
+	font-size: 1.62rem;
 }
 
 .header {
@@ -198,7 +196,7 @@ i:active {
 .nav-links {
 	text-decoration: none;
 	color: #fff;
-	font-size: 14.45px;
+	font-size: .85rem;
 	font-weight: 1000;
 	display: inline-block;
 	vertical-align: middle;
@@ -221,7 +219,7 @@ i:active {
 	font-family: "Calibri";
 	height: 44px;
 	width: 134px;
-	font-size: 14.45px;
+	font-size: .85rem;
 	background-color: #8ECF5F;
 	color: #fff;
 	font-weight: 1000;
@@ -274,7 +272,6 @@ img {
 	grid-area: marketing;
 	text-align: center;
 	padding: 85px 32px 76.5px;
-	max-width: 100%;
 }
 
 .pic1 {
@@ -324,17 +321,17 @@ img {
 .marketing h2 {
 	font-family: sancoale;
 	color: #D6A64C;
-	font-size: 42.5px;
+	font-size: 2.66rem;
 }
 
 .marketing p {
-	font-size: 17px;
+	font-size: .33em;
 }
 
 .store-hours h2 {
 	font-family: sancoale;
 	color: #D6A64C;
-	font-size: 42.5px;
+	font-size: 2.66rem;
 	margin-bottom: 25.5px;
 }
 
@@ -346,19 +343,20 @@ img {
 .wecater h2 {
 	font-family: sancoale;
 	color: #D6A64C;
-	font-size: 42.5px;
+	font-size: 2.66rem;
 	margin-bottom: 25.5px;
 }
 
 .wecater p {
-	font-size: 17px;
+	font-size: .33em;
 	margin-bottom: 17px;
+	color: blue;
 }
 
 .order-catering {
 	margin: 17px 16px; 
 	font-family: calibri;
-	font-size: 14.15px;
+	font-size: .85rem;
 	padding: 8.5px 17px;
 	color: #fff;
 	background-color: #000;
@@ -371,7 +369,7 @@ img {
 }
 
 .instagram h1 {
-	font-size: 51px;
+	font-size: 3rem;
 	font-family: sancoale;
 	color: #D6A64C;
 }
@@ -431,11 +429,10 @@ footer {
 }
 
 @media (max-width: 768px) {
-	html, body {
-	max-width: 100%;
-    	overflow-x: hidden;
+	html body {
+		
 	}
-	
+
 	.navbar-desktop {
 		display: none;
 		position: fixed;
@@ -492,27 +489,11 @@ footer {
 		"wecater"
 		"instagram";
 	}
-	
-.marketing {
-	max-width: 100%;
-}
-
-.pic1 {
-	max-width: 100%;
-}
-
-.store-hours {
-	max-width: 100%;
-}
-
-.wecater {
-	max-width: 100%;
-}
 
 .carousel {
 	grid-area: carousel;
 	height: 600px;
-	max-width: 100%;
+	width: 100%;
 	padding-top: 100px;
 }
 
