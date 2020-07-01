@@ -325,7 +325,7 @@ img {
 }
 
 .marketing p {
-	font-size: .33em;
+	font-size: 1em;
 }
 
 .store-hours h2 {
@@ -336,7 +336,7 @@ img {
 }
 
 .store-hours p {
-	font-size: 17px;
+	font-size: 1rem;
 	margin-bottom: 17px;
 }
 
@@ -348,9 +348,8 @@ img {
 }
 
 .wecater p {
-	font-size: .33em;
+	font-size: 1em;
 	margin-bottom: 17px;
-	color: blue;
 }
 
 .order-catering {
