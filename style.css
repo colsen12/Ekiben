@@ -17,6 +17,7 @@ body {
 	color: #fff;
 	background-color: #000;
 	background-image: url("./assets/background.jpg");
+	max-width: 100%;
 	display: block;
 }
 
@@ -186,7 +187,7 @@ i:active {
 .nav-menu li {
 	font-weight: 1000;
 	list-style: none;
-	padding: 0px .5rem;
+	padding: 0rem .5rem;
 	height: 2rem;
 	display: inline;
 }
@@ -276,6 +277,7 @@ img {
 .pic1 {
 	grid-area: pic1;
 	background: url(./assets/storeinfo-img.jpg);
+	max-width: 100%;
 	background-size: cover;
 }
 
@@ -296,6 +298,7 @@ img {
 .pic2 {
 	grid-area: pic2;
 	background: url(./assets/catering-img.jpg);
+	max-width: 100%;
 	background-size: cover;
 }
 
@@ -504,6 +507,7 @@ footer {
 .pic1 {
 	grid-area: pic1;
 	background: url(./assets/storeinfo-img.jpg);
+	max-width: 100%;
 	background-size: cover;
 }
 
@@ -523,6 +527,7 @@ footer {
 .pic2 {
 	grid-area: pic2;
 	background: url(./assets/catering-img.jpg);
+	max-width: 100%;
 	background-size: cover;
 }
 
