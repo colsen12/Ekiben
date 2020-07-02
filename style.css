@@ -272,6 +272,7 @@ img {
 	grid-area: marketing;
 	text-align: center;
 	padding: 5.3rem 2rem 4.7rem;
+	width: 100%;
 }
 
 .pic1 {
@@ -286,6 +287,7 @@ img {
 	background: rgba(0, 0, 0, 0.4);
 	text-align: center;
 	padding: 5.3rem 0rem 4.8rem;
+	width: 100%;
 }
 
 .wecater {
@@ -293,6 +295,7 @@ img {
 	background: rgba(0, 0, 0, 0.4);
 	text-align: center;
 	padding: 5.3rem 0rem 4.8rem;
+	width: 100%;
 }
 
 .pic2 {
@@ -300,6 +303,7 @@ img {
 	background: url(./assets/catering-img.jpg);
 	max-width: 100%;
 	background-size: cover;
+	width: 100%;
 }
 
 .instagram {
@@ -307,6 +311,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 }
 
 .container {
