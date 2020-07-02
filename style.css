@@ -502,6 +502,7 @@ footer {
 	grid-area: marketing;
 	text-align: center;
 	padding: 0rem 1rem 1rem;
+	width: 100%;
 }
 
 .pic1 {
@@ -515,6 +516,7 @@ footer {
 	grid-area: store-hours;
 	background: rgba(0, 0, 0, 0.4);
 	text-align: center;
+	width: 100%;
 }
 
 .wecater {
@@ -522,6 +524,7 @@ footer {
 	background: rgba(0, 0, 0, 0.4);
 	text-align: center;
 	padding: 5.3rem 0rem 4.78;
+	width: 100%;
 }
 
 .pic2 {
@@ -537,6 +540,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 }
 
 	main.active {
