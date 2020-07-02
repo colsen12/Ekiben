@@ -265,8 +265,9 @@ img {
 
 .top-image {
 	grid-area: topimage;
-	background: url(./assets/slider-img3.jpg) no-repeat center;
+	background: url(./assets/slider-img1.jpg) no-repeat center;
 	background-size: cover;
+	margin-top: 2rem;
 	width: 100%;
 }
 
