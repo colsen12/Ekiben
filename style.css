@@ -265,7 +265,7 @@ img {
 
 .top-image {
 	grid-area: topimage;
-	background: url(./assets/edited3.jpg);
+	background: url(./assets/slider-img3.jpg);
 	background-size: cover;
 	width: 100%;
 }
