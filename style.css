@@ -436,9 +436,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-	html body {
-		
-	}
 
 	.navbar-desktop {
 		display: none;
@@ -499,8 +496,7 @@ footer {
 
 .top-image {
 	grid-area: topimage;
-	height: 37.5rem;
-	width: 100%;
+	max-width: 100%;
 	padding-top: 6.25rem;
 }
 
